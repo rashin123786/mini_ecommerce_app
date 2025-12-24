@@ -1,16 +1,28 @@
-# mini_ecommerce_app
+🛒 Mini E-commerce Flutter App
 
-A new Flutter project.
+A simple mini e-commerce application built as a Flutter machine task, following clean architecture and modern state management using Riverpod.
 
-## Getting Started
+✨ Features
+Product listing from FakeStore API
+Product details page
+Search products
+Add to Cart with quantity (+ / −)
+Wishlist functionality
+Cart & Wishlist state persists across screens
+Splash screen with auto navigation
+Responsive UI with null safety
 
-This project is a starting point for a Flutter application.
+🧠 Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+Flutter
+flutter_riverpod (State Management)
+HTTP (API calls)
+CachedNetworkImage
+Clean folder structure (models, services, state, screens)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+ ├─ models/
+ ├─ services/
+ ├─ state/
+ ├─ screens/
+ └─ main.dart
